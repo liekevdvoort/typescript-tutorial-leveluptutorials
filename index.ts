@@ -12,9 +12,9 @@ const tablet: any = 3;
 
 //functions in typescript
 
-const sayWord = (word: string) : string => {
-    console.log(word);
-    return word;
+const sayWord = (word?: string) : string => {
+    console.log(word || "hello");
+    return word || "hello";
 }
 
-sayWord(3 + 'eyo');
+sayWord();

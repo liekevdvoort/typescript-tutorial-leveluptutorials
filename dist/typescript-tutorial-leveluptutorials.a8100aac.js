@@ -121,10 +121,10 @@ var phone = "Pixel";
 var tablet = 3;
 //functions in typescript
 var sayWord = function sayWord(word) {
-    console.log(word);
-    return word;
+    console.log(word || "hello");
+    return word || "hello";
 };
-sayWord(3 + 'eyo');
+sayWord();
 },{}],6:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
