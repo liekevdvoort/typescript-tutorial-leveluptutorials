@@ -1,4 +1,9 @@
 {
+  "name": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
   "devDependencies": {
     "typescript": "^4.1.2"
   }
